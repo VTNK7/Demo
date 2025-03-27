@@ -19,6 +19,11 @@ wsl.exe -d Debian
 
 #### Lancement debian
 wsl.exe
+wsl.exe -l -v
+
+connaitre la ram cpu
+
+
 
 #### à éviter, ces commandes utilisent le microsoft store
 wsl --list --online
@@ -32,6 +37,8 @@ apt update
 apt install 
 apt list
 
-
+### Debian
+pour accéder au répertoire windows sur la machine Debian :
+/mnt/c/Users/username
 
    
