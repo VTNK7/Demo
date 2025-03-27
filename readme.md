@@ -22,6 +22,10 @@ wsl.exe
 wsl.exe -l -v
 
 connaitre la ram cpu
+Get-process *vmmem*
+
+terminer la vm
+wsl -t DISTRO-NAME
 
 
 
