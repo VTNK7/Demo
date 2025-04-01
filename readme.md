@@ -10,6 +10,7 @@ Vscode
 
 ### wsl
 
+Faire le script de paul pour le certificat ssl/tls
 #### Installation : 
 Lancer powershell en admin : 
 wsl.exe --list --online
