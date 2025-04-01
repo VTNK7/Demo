@@ -51,6 +51,12 @@ pour accéder au répertoire windows sur la machine Debian :
 Je vais créer deux machines debian avec wsl
 Commands : 
 
+wsl --export Debian "C:\Users\victor.marti\Documents\Code\vm\debian-backup.tar"
+
+Cette machine debian est connecté au github et à désactivé swap
+
+wsl --import Debian_Data C:\Users\victor.marti\Documents\Code\vm\Debian_Data C:\Users\victor.marti\Documents\Code\vm\debian-backup.tar
+wsl --import Debian_Control C:\Users\victor.marti\Documents\Code\vm\Debian_Control C:\Users\victor.marti\Documents\Code\vm\debian-backup.tar
 
 ### Requirements 
 
